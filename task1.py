@@ -3,10 +3,12 @@ from qiskit.circuit import Parameter
 from qiskit import Aer, execute
 from qiskit.aqua.components.optimizers import AQGD
 import matplotlib.pyplot as plt
+import numpy as np
+import random
 
 optimum_parameters = []
 epsilons = []
-L = 10
+L = 2
 
 def obj_fn(params):
     result = execute(qc,simulator,shots=1024,parameter_binds = [{theta: params[0]}]).result()
@@ -19,6 +21,10 @@ def obj_fn(params):
         else:
             s = s + pow(counts[key],2)
     return s
+
+angle = [random.uniform(0,2*np.pi)]
+rand_vec = [np.random.randint(0,2) for i in range(4)]
+rand = str(rand_vec[0])+str(rand_vec[1])+str(rand_vec[2])+str(rand_vec[3])
 
 for l in range(L):
     theta = Parameter('θ')
@@ -51,3 +57,4 @@ layers = [i+1 for i in range(L)]
 plt.plot(layers,epsilons)
 plt.xlabel('layers')
 plt.ylabel('epsilon')
+plt.savefig('result.png')
