@@ -12,18 +12,13 @@ to |0000> and |1111>.
 
 The following graphs denote the scenarios mentioned above:
 
-![Random Vector 1010, Rx-Ry](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1010rxry.png)
-![Random Vector 1111, Rx-Ry](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1111rxry.png)
-![Random Vector 1010, Rx-Rz](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1010rxrz.png)
-![Random Vector 1111, Rx-Rz](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1111rxrz.png)
-![Random Vector 1010, Ry-Rz](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1010ryrz.png)
-![Random Vector 1111, Ry-Rz](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1111ryrz.png)
+![Graphs](https://github.com/atagade/QOSF-Mentorship/blob/master/Graphs.png)
 
-The graphs on the left correspond to random vector |1010> and the ones on the right to |1111>, in the order of top to bottom Rx-Ry, Rx-Rz and Ry-Rz.
-For the purposes of the task, the middle row of graphs denote the scenario specified and we can see that the best results can be obtained on average with layers = 5. 
-In the case of Rx-Ry, the best result on average can be obtained with layers = 4. 
-In the case of Ry-Rz, the best result on average can be obtained with layers = 3.
+The graphs on top correspond to random vector |1010> and the ones on the bottom to |1111>, in the order of left to right Rx-Ry, Rx-Rz and Ry-Rz.
+* For the purposes of the task, the middle row of graphs denote the scenario specified and we can see that the best results can be obtained on average with layers = 5. 
+* In the case of Rx-Ry, the best result on average can be obtained with layers = 4. 
+* In the case of Ry-Rz, the best result on average can be obtained with layers = 3.
 
-
+It can also be seen that the epsilon values even in the worst case for the random vector |1010> are much higher than the ones with random vector as |1111>.
  
 
