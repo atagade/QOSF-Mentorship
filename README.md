@@ -10,4 +10,4 @@ It speaks to the fact that it is difficult to generalize the output of the given
 to |0000> and |1111>. 
 
 The following graphs denote the scenarios mentioned above:
-[!Random Vector 1010, Rx-Ry](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1010rxry.png)
+![Random Vector 1010, Rx-Ry](https://github.com/atagade/QOSF-Mentorship/blob/master/rand_1010rxry.png)
