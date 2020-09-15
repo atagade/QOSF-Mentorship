@@ -1,6 +1,6 @@
 # QOSF-Mentorship
 
-The analysis of my code experiment is written here, as a quick way to analyse the results. It would help if you went through the Task1 notebook to understand the workflow. 
+The analysis of my code experiment is written here, as a quick way to analyse the results. It would help if you went through the Task1 notebook to understand the workflow. There is a python script which contains all the code mentioned in Task1.ipynb, please check the value of L before running the script.
 
 I created 6 graphs to illustrate 6 scenarios, 
 * Random Vector: 1010, Gates: Rx-Ry, Rx-Rz and Ry-Rz
