@@ -1,5 +1,7 @@
 # QOSF-Mentorship
 
+The problem statement for the task can be found in the following google doc as Task 1: https://docs.google.com/document/d/1Ow3v8Y4rYBdgxXNxKV9ZUAM4bwL6211U6DWCcByZ4A4/edit 
+
 The analysis of my code experiment is written here, as a quick way to analyse the results. It would help if you went through the Task1 notebook to understand the workflow. There is a python script which contains all the code mentioned in Task1.ipynb, please check the value of L before running the script.
 
 I created 6 graphs to illustrate 6 scenarios, 
